@@ -13,9 +13,8 @@ const Common: React.FC = () => {
       <Header isShow>
         <Header.Title>안녕</Header.Title>
         <Header.BtnList>
-          <Header.Btn>테스트1</Header.Btn>
-          <Header.Btn>테스트2</Header.Btn>
-          <Header.Btn>테스트2</Header.Btn>
+          <Header.Btn url="/modal">모달 테스트</Header.Btn>
+          <Header.Btn url="/">뒤로가기</Header.Btn>
         </Header.BtnList>
       </Header>
 
