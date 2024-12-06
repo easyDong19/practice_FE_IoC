@@ -1,10 +1,12 @@
 import { createBrowserRouter } from 'react-router-dom'
-import Main from './page/main'
+import Common from '@/page/Common'
+import ModalMain from './page/modal/ModalMain'
 
 const Router = createBrowserRouter([
   {
     path: '/',
-    element: <Main />,
+    element: <Common />,
+    children: [{ path: 'modal', element: <ModalMain /> }],
   },
 ])
 
